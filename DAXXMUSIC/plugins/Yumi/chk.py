@@ -1,5 +1,5 @@
 from pyrogram import Client, filters, types
-from pyrogram.errors import *
+from pyrogram.errors import Throttled
 import re
 import time
 from DAXXMUSIC import app
@@ -10,12 +10,12 @@ from config import BOT_USERNAME
 PREFIX = "/"
 ANTISPAM = 5 
 BLACKLISTED = [] 
-UA = "MR DAXX"
+UA = "daxx"
 
 
 @app.on_message(filters.command("chk", prefixes=PREFIX))
 async def check_cc(client, message):
-    await message.reply_chat_action('typing')
+    await message.answer_chat_action('typing')
     tic = time.perf_counter()
     ID = message.from_user.id
     FIRST = message.from_user.first_name
