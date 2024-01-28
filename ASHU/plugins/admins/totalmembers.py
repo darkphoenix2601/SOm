@@ -1,4 +1,4 @@
-from ASHU.utils.daxx_ban import admin_filter
+from ASHU.utils.KARTIK_ban import admin_filter
 import os
 import csv
 from pyrogram import Client, filters

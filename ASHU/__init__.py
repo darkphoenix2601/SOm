@@ -1,4 +1,4 @@
-from ASHU.core.bot import DAXX
+from ASHU.core.bot import KARTIK
 from ASHU.core.dir import dirr
 from ASHU.core.git import git
 from ASHU.core.userbot import Userbot
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = DAXX()
+app = KARTIK()
 api = SafoneAPI()
 userbot = Userbot()
 

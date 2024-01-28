@@ -4,7 +4,7 @@ from ASHU import app, userbot
 from ASHU.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from ASHU.utils.daxx_ban import admin_filter
+from ASHU.utils.KARTIK_ban import admin_filter
 
 
 

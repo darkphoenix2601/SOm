@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.errors import MessageDeleteForbidden, RPCError
 from pyrogram.types import Message
-from ASHU.utils.daxx_ban import admin_filter
+from ASHU.utils.KARTIK_ban import admin_filter
 from ASHU import app
 
 

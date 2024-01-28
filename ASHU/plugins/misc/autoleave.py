@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from ASHU import app
-from ASHU.core.call import DAXX, autoend
+from ASHU.core.call import KARTIK, autoend
 from ASHU.utils.database import get_client, is_active_chat, is_autoend
 
 
@@ -59,7 +59,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await DAXX.stop_stream(chat_id)
+                    await KARTIK.stop_stream(chat_id)
                 except:
                     continue
                 try:

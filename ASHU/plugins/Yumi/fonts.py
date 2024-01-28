@@ -1,7 +1,7 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from ASHU.utils.daxx_font import Fonts
+from ASHU.utils.KARTIK_font import Fonts
 from ASHU import app
 
 @app.on_message(filters.command(["font", "fonts"]))

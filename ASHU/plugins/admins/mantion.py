@@ -2,7 +2,7 @@ import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
 from ASHU import app
 from pyrogram import filters
-from ASHU.utils.daxx_ban import admin_filter
+from ASHU.utils.KARTIK_ban import admin_filter
 
 
 

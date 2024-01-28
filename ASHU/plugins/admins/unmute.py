@@ -1,7 +1,7 @@
 from ASHU import app
 from pyrogram import filters,enums
 from pyrogram.types import ChatPermissions 
-from ASHU.utils.daxx_ban import admin_filter
+from ASHU.utils.KARTIK_ban import admin_filter
 
 @app.on_message(filters.command("unmuteall") & admin_filter)
 async def unmute_all(_,msg):

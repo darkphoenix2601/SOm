@@ -1,7 +1,7 @@
 import re
 from ASHU import app
 from config import BOT_USERNAME
-from ASHU.utils.daxx_ban import admin_filter
+from ASHU.utils.KARTIK_ban import admin_filter
 from ASHU.mongo.filtersdb import *
 from ASHU.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
 from ASHU.utils.yumidb import user_admin

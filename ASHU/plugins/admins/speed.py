@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from ASHU import app
-from ASHU.core.call import DAXX
+from ASHU.core.call import KARTIK
 from ASHU.misc import SUDOERS, db
 from ASHU.utils import AdminRightsCheck
 from ASHU.utils.database import is_active_chat, is_nonadmin_chat
@@ -94,7 +94,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await DAXX.speedup_stream(
+        await KARTIK.speedup_stream(
             chat_id,
             file_path,
             speed,

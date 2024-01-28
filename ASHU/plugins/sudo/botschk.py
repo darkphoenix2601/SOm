@@ -7,7 +7,7 @@ import random
 import asyncio
 from datetime import datetime
 from pyrogram.enums import ChatType
-from ASHU.core.call import DAXX
+from ASHU.core.call import KARTIK
 from ASHU.logging import LOGGER
 from config import *
 from pyrogram import filters

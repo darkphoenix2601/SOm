@@ -1,7 +1,7 @@
 from ASHU import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from ASHU.utils.daxx_ban import admin_filter
+from ASHU.utils.KARTIK_ban import admin_filter
 from ASHU.mongo.notesdb import *
 from ASHU.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
 from ASHU.utils.yumidb import user_admin

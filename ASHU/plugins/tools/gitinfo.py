@@ -1,23 +1,23 @@
 import asyncio, os, time, aiohttp
 import aiohttp
 from pyrogram import filters
-from daxxhub import daxxhub as papadaxx
+from KARTIKhub import KARTIKhub as papaKARTIK
 from ASHU import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ###
-@app.on_message(filters.command("daxxhub"))
-async def daxxhub(_, message):
-    text = message.text[len("/daxxhub") :]
-    papadaxx(f"{text}").save(f"daxxhub_{message.from_user.id}.png")
-    await message.reply_photo(f"daxxhub_{message.from_user.id}.png")
-    os.remove(f"daxxhub_{message.from_user.id}.png")
+@app.on_message(filters.command("KARTIKhub"))
+async def KARTIKhub(_, message):
+    text = message.text[len("/KARTIKhub") :]
+    papaKARTIK(f"{text}").save(f"KARTIKhub_{message.from_user.id}.png")
+    await message.reply_photo(f"KARTIKhub_{message.from_user.id}.png")
+    os.remove(f"KARTIKhub_{message.from_user.id}.png")
 ####
 
 @app.on_message(filters.command(["github", "git"]))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/git DAXXTEAM")
+        await message.reply_text("/git KARTIKTEAM")
         return
 
     username = message.text.split(None, 1)[1]
