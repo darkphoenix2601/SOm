@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 from youtube_search import YoutubeSearch
 from yt_dlp import YoutubeDL
 
-from DAXXMUSIC import app
+from ASHU import app
 from pyrogram import filters
 from pyrogram import Client, filters
 from pyrogram.types import Message

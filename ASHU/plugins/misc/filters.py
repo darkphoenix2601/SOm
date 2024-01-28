@@ -1,10 +1,10 @@
 import re
-from DAXXMUSIC import app
+from ASHU import app
 from config import BOT_USERNAME
-from DAXXMUSIC.utils.daxx_ban import admin_filter
-from DAXXMUSIC.mongo.filtersdb import *
-from DAXXMUSIC.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from DAXXMUSIC.utils.yumidb import user_admin
+from ASHU.utils.daxx_ban import admin_filter
+from ASHU.mongo.filtersdb import *
+from ASHU.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
+from ASHU.utils.yumidb import user_admin
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup

@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DAXXMUSIC import YouTube, app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import SUDOERS, db
-from DAXXMUSIC.utils.database import (
+from ASHU import YouTube, app
+from ASHU.core.call import DAXX
+from ASHU.misc import SUDOERS, db
+from ASHU.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from DAXXMUSIC.utils.database import (
     music_on,
     set_loop,
 )
-from DAXXMUSIC.utils.decorators.language import languageCB
-from DAXXMUSIC.utils.formatters import seconds_to_min
-from DAXXMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
-from DAXXMUSIC.utils.stream.autoclear import auto_clean
-from DAXXMUSIC.utils.thumbnails import get_thumb
+from ASHU.utils.decorators.language import languageCB
+from ASHU.utils.formatters import seconds_to_min
+from ASHU.utils.inline import close_markup, stream_markup, stream_markup_timer
+from ASHU.utils.stream.autoclear import auto_clean
+from ASHU.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,

@@ -1,5 +1,5 @@
-from DAXXMUSIC.misc import db
-from DAXXMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
+from ASHU.misc import db
+from ASHU.utils.database import get_assistant, get_authuser_names, get_cmode
 
 import asyncio
 import config
@@ -7,14 +7,14 @@ import random
 import asyncio
 from datetime import datetime
 from pyrogram.enums import ChatType
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.logging import LOGGER
+from ASHU.core.call import DAXX
+from ASHU.logging import LOGGER
 from config import *
 from pyrogram import filters
-from DAXXMUSIC import app 
-from DAXXMUSIC import app, userbot
-from DAXXMUSIC.core.userbot import Client
-from DAXXMUSIC.misc import SUDOERS
+from ASHU import app 
+from ASHU import app, userbot
+from ASHU.core.userbot import Client
+from ASHU.misc import SUDOERS
 
 
 

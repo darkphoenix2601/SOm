@@ -1,10 +1,10 @@
-from DAXXMUSIC import app
+from ASHU import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from DAXXMUSIC.utils.daxx_ban import admin_filter
-from DAXXMUSIC.mongo.notesdb import *
-from DAXXMUSIC.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
-from DAXXMUSIC.utils.yumidb import user_admin
+from ASHU.utils.daxx_ban import admin_filter
+from ASHU.mongo.notesdb import *
+from ASHU.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
+from ASHU.utils.yumidb import user_admin
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , Message , CallbackQuery
 from pyrogram.enums import ChatMemberStatus
 
@@ -82,7 +82,7 @@ async def PrivateNote(client, message):
     else:
         if await is_pnote_on(chat_id):
             await message.reply(
-                "Your notes are currently being sent in private. DAXXMUSIC will send a small note with a button which redirects to a private chat.",
+                "Your notes are currently being sent in private. ASHU will send a small note with a button which redirects to a private chat.",
                 quote=True
             )
         else:

@@ -4,15 +4,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from DAXXMUSIC import app
-from DAXXMUSIC.core.call import DAXX, autoend
-from DAXXMUSIC.utils.database import get_client, is_active_chat, is_autoend
+from ASHU import app
+from ASHU.core.call import DAXX, autoend
+from ASHU.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(900):
-            from DAXXMUSIC.core.userbot import assistants
+            from ASHU.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)

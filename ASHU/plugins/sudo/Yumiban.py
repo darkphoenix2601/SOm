@@ -1,10 +1,10 @@
 import requests
 import random
-from DAXXMUSIC import app, userbot
-from DAXXMUSIC.misc import SUDOERS
+from ASHU import app, userbot
+from ASHU.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from DAXXMUSIC.utils.daxx_ban import admin_filter
+from ASHU.utils.daxx_ban import admin_filter
 
 
 

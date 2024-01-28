@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.utils.database import is_music_playing, music_on
-from DAXXMUSIC.utils.decorators import AdminRightsCheck
-from DAXXMUSIC.utils.inline import close_markup
+from ASHU import app
+from ASHU.core.call import DAXX
+from ASHU.utils.database import is_music_playing, music_on
+from ASHU.utils.decorators import AdminRightsCheck
+from ASHU.utils.inline import close_markup
 from config import BANNED_USERS
 
 

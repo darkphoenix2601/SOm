@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 import random
-from DAXXMUSIC import app
+from ASHU import app
 
 def calculate_gay_percentage():
     # Simple random gay percentage calculation for fun

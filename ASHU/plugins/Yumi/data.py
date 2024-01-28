@@ -24,7 +24,7 @@ SOFTWARE.
 
 from pyrogram import Client, filters
 from faker import Faker
-from DAXXMUSIC import app
+from ASHU import app
 
 # Create a Faker instance
 fake = Faker()

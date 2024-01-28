@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from DAXXMUSIC import Carbon, YouTube, app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import db
-from DAXXMUSIC.utils.database import add_active_video_chat, is_active_chat
-from DAXXMUSIC.utils.exceptions import AssistantErr
-from DAXXMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from DAXXMUSIC.utils.pastebin import DAXXBin
-from DAXXMUSIC.utils.stream.queue import put_queue, put_queue_index
-from DAXXMUSIC.utils.thumbnails import get_thumb
+from ASHU import Carbon, YouTube, app
+from ASHU.core.call import DAXX
+from ASHU.misc import db
+from ASHU.utils.database import add_active_video_chat, is_active_chat
+from ASHU.utils.exceptions import AssistantErr
+from ASHU.utils.inline import aq_markup, close_markup, stream_markup
+from ASHU.utils.pastebin import DAXXBin
+from ASHU.utils.stream.queue import put_queue, put_queue_index
+from ASHU.utils.thumbnails import get_thumb
 
 
 async def stream(

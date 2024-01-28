@@ -1,11 +1,11 @@
 from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from DAXXMUSIC import app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.utils import bot_sys_stats
-from DAXXMUSIC.utils.decorators.language import language
-from DAXXMUSIC.utils.inline import supp_markup
+from ASHU import app
+from ASHU.core.call import DAXX
+from ASHU.utils import bot_sys_stats
+from ASHU.utils.decorators.language import language
+from ASHU.utils.inline import supp_markup
 from config import BANNED_USERS
 import aiohttp
 import asyncio

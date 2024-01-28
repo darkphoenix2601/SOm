@@ -1,11 +1,11 @@
-from DAXXMUSIC import app
+from ASHU import app
 from pyrogram import Client, filters
 from pyrogram.errors import ChatIdInvalid
 from pyrogram.errors import ChatAdminRequired, ChatNotModified, ChatIdInvalid, FloodWait, InviteHashExpired, UserNotParticipant
 import os
 import json
 from pyrogram.types import Message
-from DAXXMUSIC.misc import SUDOERS
+from ASHU.misc import SUDOERS
 
 
 

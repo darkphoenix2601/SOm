@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import YouTube, app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import db
-from DAXXMUSIC.utils import AdminRightsCheck, seconds_to_min
-from DAXXMUSIC.utils.inline import close_markup
+from ASHU import YouTube, app
+from ASHU.core.call import DAXX
+from ASHU.misc import db
+from ASHU.utils import AdminRightsCheck, seconds_to_min
+from ASHU.utils.inline import close_markup
 from config import BANNED_USERS
 
 

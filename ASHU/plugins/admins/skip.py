@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from DAXXMUSIC import YouTube, app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import db
-from DAXXMUSIC.utils.database import get_loop
-from DAXXMUSIC.utils.decorators import AdminRightsCheck
-from DAXXMUSIC.utils.inline import close_markup, stream_markup
-from DAXXMUSIC.utils.stream.autoclear import auto_clean
-from DAXXMUSIC.utils.thumbnails import get_thumb
+from ASHU import YouTube, app
+from ASHU.core.call import DAXX
+from ASHU.misc import db
+from ASHU.utils.database import get_loop
+from ASHU.utils.decorators import AdminRightsCheck
+from ASHU.utils.inline import close_markup, stream_markup
+from ASHU.utils.stream.autoclear import auto_clean
+from ASHU.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

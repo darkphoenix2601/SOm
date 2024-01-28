@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from DAXXMUSIC import app
+from ASHU import app
 from config import BOT_USERNAME
 
 

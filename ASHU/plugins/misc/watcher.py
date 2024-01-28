@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.core.call import DAXX
+from ASHU import app
+from ASHU.core.call import DAXX
 
 welcome = 20
 close = 30

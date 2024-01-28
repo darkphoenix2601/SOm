@@ -1,8 +1,8 @@
-from DAXXMUSIC.core.bot import DAXX
-from DAXXMUSIC.core.dir import dirr
-from DAXXMUSIC.core.git import git
-from DAXXMUSIC.core.userbot import Userbot
-from DAXXMUSIC.misc import dbb, heroku
+from ASHU.core.bot import DAXX
+from ASHU.core.dir import dirr
+from ASHU.core.git import git
+from ASHU.core.userbot import Userbot
+from ASHU.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER

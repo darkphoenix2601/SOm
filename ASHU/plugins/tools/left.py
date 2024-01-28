@@ -1,4 +1,4 @@
-from DAXXMUSIC import app
+from ASHU import app
 from pyrogram import Client, filters
 from pyrogram.errors import RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
@@ -51,8 +51,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "DAXXMUSIC/assets/userinfo.png"
-font_path = "DAXXMUSIC/assets/hiroko.ttf"
+bg_path = "ASHU/assets/userinfo.png"
+font_path = "ASHU/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 

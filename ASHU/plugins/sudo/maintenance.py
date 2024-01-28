@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.misc import SUDOERS
-from DAXXMUSIC.utils.database import (
+from ASHU import app
+from ASHU.misc import SUDOERS
+from ASHU.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
