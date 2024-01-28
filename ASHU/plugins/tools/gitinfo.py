@@ -1,7 +1,7 @@
 import asyncio, os, time, aiohttp
 import aiohttp
 from pyrogram import filters
-from KARTIKhub import KARTIKhub as papaKARTIK
+from daxxhub import daxxhub as papadaxx
 from ASHU import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
